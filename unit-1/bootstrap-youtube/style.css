@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#videos {
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.video {
+  padding-top: 10px;
+
+}
+
+.card {
+  border: 0px solid #fff !important;
+}
+
+.card-body {
+  background-color: #f8f8f8;
+}
+
+.user-img {
+  border-radius: 50%;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.user-name,
+.video-footer {
+  font-size: 12px;
+  color: #808080;
+  margin: 0px;
+}
+
+#logo {
+  width: 150px;
+}
+
+#drop-list-btn {
+  width: 40px;
+  margin: 10px;
+}
+
+.list-group {
+  width: 100%;
+  padding-bottom: 20px !important;
+  padding-left: 20px !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.list-group-item {
+  width: 100%;
+  border: 0px solid #fff !important;
+}
+
+#nav-img {
+  width: 200px;
+}
+
+#nav-user {
+  width: 50px;
+}

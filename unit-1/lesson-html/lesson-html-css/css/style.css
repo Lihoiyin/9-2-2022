@@ -1,0 +1,26 @@
+.mammals {
+  color: blue;
+  font-weight: bold;
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.birds {
+  color: red;
+  background: rgba(0, 255, 0, 0.2);
+  text-decoration: underline;
+}
+
+.fishes {
+  color: green;
+  background: rgba(0, 0, 255, 0.2);
+  font-style: italic;
+}
+
+ul {
+  border: 4px solid pink;
+  border-radius: 5px;
+}
+
+li {
+  border: 2px dotted silver;
+}

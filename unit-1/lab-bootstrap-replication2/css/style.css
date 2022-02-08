@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav-holder {
+  display: none;
+}
+
+#nav-holder2 {
+  display: none;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.link-list {
+  width: 50%;
+  list-style-type: none;
+  font-size: 18px;
+  text-align: end;
+  margin-right: 15px;
+}
+
+
+.link-list a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+
+.nav-links {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 5px 2px;
+}
+
+.nav2-list {
+  background-color: #333333;
+}
+
+.link-list a:hover {
+  border-top: 2px solid blue;
+  padding: 18px 10px 20px;
+  background-image: linear-gradient(to bottom, #0000ff40, #0000ff02);
+}
+
+.nav-links:hover {
+  border-right: 2px solid blue;
+  padding-right: 0px;
+  background-image: linear-gradient(to left, #0000ff40, #0000ff02);
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-holder {
+    display: none;
+  }
+
+  #nav-holder2 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #nav-holder {
+    display: block;
+  }
+
+  #nav-holder2 {
+    display: none;
+  }
+}
+
+#header {
+  height: 300px;
+  background-image: url(https://i.imgur.com/NvKXQpY.jpg);
+  background-size: cover;
+  margin: 0px 0px 20px;
+
+}
+
+main {
+  margin: 10px;
+}
+
+.mycard {
+  margin-bottom: 10px;
+}
+
+#footer {
+  background-color: #202020;
+  padding: 20px 0;
+}
+
+#footer div h2 {
+  border-bottom: 1px solid #808080;
+  color: #989898;
+}
+
+#footer div {
+  margin: 10px 0;
+}
+
+#footer div p {
+  border-bottom: 1px solid #808080;
+  color: #989898;
+}
+
+#footer div a {
+  border-bottom: 1px solid #808080;
+  color: #989898;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#footer div a:hover {
+  color: #f2f2f2;
+}
